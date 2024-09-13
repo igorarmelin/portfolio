@@ -55,7 +55,7 @@ const Main = () => {
         <BottomWaveSVG />
       </div>
 
-      <div className="flex flex-col justify-center items-center p-24 bg-zinc-700 -mt-4 space-y-6">
+      <div className="flex flex-col justify-center items-center p-24 bg-zinc-700 -mt-4 space-y-6 max-xs:p-12">
         <div className="text-zinc-300 font-bold text-sm">
           © 2024 - Igor Pegoraro Armelin
         </div>
