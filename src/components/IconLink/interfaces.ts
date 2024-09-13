@@ -1,7 +1,6 @@
-import { ReactNode } from 'react'
+import { IconType } from 'react-icons'
 
 export interface IconLinkProps {
-  icon: ReactNode
+  icon: IconType
   link: string
-  download?: string | boolean
 }

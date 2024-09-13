@@ -6,12 +6,8 @@ const MainPage = lazy(() => import('../pages/Main'))
 const routes: RouteObject[] = [
   {
     path: '/',
-    children: [{ path: '', element: <MainPage /> }],
+    element: <MainPage />,
   },
 ]
 
-export const router = createBrowserRouter(
-  routes.map((route) => ({
-    ...route,
-  })),
-)
+export const router = createBrowserRouter(routes)

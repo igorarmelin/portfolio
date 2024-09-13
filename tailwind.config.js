@@ -7,6 +7,12 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
       },
+      screens: {
+        xs: '480px',
+      },
+      fontSize: {
+        xss: '0.625rem',
+      },
     },
   },
   plugins: [],
