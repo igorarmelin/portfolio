@@ -8,29 +8,36 @@ const Main = () => {
   return (
     <div className="flex flex-col bg-zinc-200 text-zinc-700 font-poppins uppercase">
       <div className="h-screen flex flex-col justify-center items-start max-w-screen-xl mx-auto px-4">
-        <h2 className="text-2xl font-semibold text-indigo-800 max-sm:text-base">
-          Igor Pegoraro Armelin
-        </h2>
-        <div className="flex space-x-6">
-          <h1 className="text-9xl font-extrabold max-sm:text-7xl max-md:text-8xl max-xs:text-6xl ">
-            Front
-          </h1>
+        <div className="max-w-4xl w-full mx-auto">
+          <h2 className="text-2xl font-bold text-indigo-800 max-sm:text-base">
+            Igor Pegoraro Armelin
+          </h2>
           <div className="flex space-x-6">
-            <IconLink
-              icon={FaLinkedin}
-              link="https://linkedin.com/in/igorarmelin"
-            />
-            <IconLink icon={FaGithub} link="https://github.com/igorarmelin" />
-            <IconLink icon={FaFilePdf} link="/igor_armelin_curriculo.pdf" />
+            <h1 className="text-9xl font-extrabold max-sm:text-7xl max-md:text-8xl max-xs:text-6xl ">
+              Front
+            </h1>
+            <div className="flex space-x-6">
+              <IconLink
+                icon={FaLinkedin}
+                link="https://linkedin.com/in/igorarmelin"
+              />
+              <IconLink icon={FaGithub} link="https://github.com/igorarmelin" />
+              <IconLink icon={FaFilePdf} link="/igor_armelin_curriculo.pdf" />
+            </div>
+          </div>
+
+          <div className="flex flex-col items-end">
+            <h1 className="text-9xl font-extrabold max-sm:text-7xl max-md:text-8xl max-xs:text-6xl">
+              Developer
+            </h1>
+            <h3 className="max-w-lg font-semibold text-indigo-800 max-sm:text-sm max-sm:max-w-sm max-xs:max-w-60 max-xs:text-xs text-right">
+              Desde 2020 desenvolvendo soluções robustas e intuitivas, focadas
+              na experiência do usuário e transformando ideias em produtos
+              funcionais.
+            </h3>
           </div>
         </div>
-        <h1 className="self-end text-9xl font-extrabold max-sm:text-7xl max-md:text-8xl max-xs:text-6xl">
-          Developer
-        </h1>
-        <h3 className="self-end max-w-lg font-light text-indigo-800 max-sm:text-sm max-sm:max-w-sm max-xs:max-w-60 max-xs:text-xs">
-          Desde 2020 desenvolvendo soluções robustas e intuitivas, focadas na
-          experiência do usuário e transformando ideias em produtos funcionais.
-        </h3>
+
         <div className="mt-24">
           <SkillsBadges />
         </div>

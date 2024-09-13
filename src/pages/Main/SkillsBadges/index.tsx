@@ -15,11 +15,11 @@ const SkillsBadges = () => {
   ]
 
   return (
-    <div className="flex flex-wrap justify-center space-x-6 max-sm:gap-4 max-sm:space-x-0 max-md:gap-4 max-md:space-x-0 max-lg:gap-4 max-lg:space-x-0">
+    <div className="flex flex-wrap justify-center gap-6">
       {techStack.map((tech, index) => (
         <div
           key={index}
-          className="w-24 h-20 max-sm:w-20 max-sm:h-16 max-xs:w-16 max-xs:h-16 border-2 border-indigo-800 bg-indigo-400 rounded-md hover:bg-indigo-500 transition-all duration-300 flex flex-col justify-center items-center space-y-2 cursor-default"
+          className="w-24 h-20 max-sm:w-20 max-sm:h-16 max-xs:w-16 max-xs:h-16 bg-indigo-600 rounded-md hover:bg-indigo-500 transition-all duration-300 flex flex-col justify-center items-center space-y-2 cursor-default"
         >
           <div className="flex justify-center text-zinc-200">
             <tech.icon className="text-4xl max-sm:text-3xl" />
