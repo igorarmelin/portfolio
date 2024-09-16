@@ -3,6 +3,7 @@ import Projects from './Projects'
 import { BottomWaveSVG, TopWaveSVG } from './utils'
 import { IconLink } from '../../components'
 import { FaFilePdf, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { PiArticleMediumFill, PiCertificateFill } from 'react-icons/pi'
 
 const Main = () => {
   return (
@@ -22,6 +23,14 @@ const Main = () => {
                 link="https://linkedin.com/in/igorarmelin"
               />
               <IconLink icon={FaGithub} link="https://github.com/igorarmelin" />
+              <IconLink
+                icon={PiCertificateFill}
+                link="https://www.linkedin.com/in/igorarmelin/details/certifications/"
+              />
+              <IconLink
+                icon={PiArticleMediumFill}
+                link="https://medium.com/@igorarmelin"
+              />
               <IconLink icon={FaFilePdf} link="/igor_armelin_curriculo.pdf" />
             </div>
           </div>
@@ -30,7 +39,7 @@ const Main = () => {
             <h1 className="text-berkeleyBlue text-9xl font-extrabold max-sm:text-7xl max-md:text-8xl max-xs:text-6xl">
               Developer
             </h1>
-            <h3 className="max-w-lg font-semibold max-sm:text-sm max-sm:max-w-sm max-xs:max-w-60 max-xs:text-xs text-right">
+            <h3 className="max-w-lg font-semibold max-sm:text-sm max-sm:max-w-sm max-xs:max-w-60 max-xs:text-xss text-right">
               Desde 2020 desenvolvendo soluções robustas e intuitivas, focadas
               na experiência do usuário e transformando ideias em produtos
               funcionais.
