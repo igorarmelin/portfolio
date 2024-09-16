@@ -6,7 +6,7 @@ import { projects } from './utils'
 const Projects = () => {
   return (
     <>
-      <div className="text-6xl font-extrabold text-zinc-200 mb-24 max-sm:text-4xl">
+      <div className="text-honeydew text-6xl font-extrabold mb-24 max-sm:text-4xl">
         Meus Projetos
       </div>
       <div className="flex flex-wrap justify-center gap-12 max-w-screen-xl">
@@ -28,7 +28,7 @@ const Projects = () => {
               <IconLink icon={TbWorld} link={project.website} />
               <IconLink icon={FaGithub} link={project.github} />
             </div>
-            <p className="text-center text-xl font-bold text-indigo-800 cursor-default">
+            <p className="text-honeydew text-center text-xl font-bold cursor-default">
               {project.name}
             </p>
           </div>
