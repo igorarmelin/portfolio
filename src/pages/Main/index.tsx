@@ -17,7 +17,7 @@ const Main = () => {
             <h1 className="text-berkeleyBlue text-9xl font-extrabold max-sm:text-7xl max-md:text-8xl max-xs:text-6xl ">
               Front
             </h1>
-            <div className="flex space-x-6">
+            <div className="flex flex-wrap space-x-6">
               <IconLink
                 icon={FaLinkedin}
                 link="https://linkedin.com/in/igorarmelin"
