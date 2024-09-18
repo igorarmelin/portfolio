@@ -5,7 +5,8 @@ import {
   BiLogoTypescript,
 } from 'react-icons/bi'
 import { FaAws, FaCss3Alt, FaHtml5, FaReact } from 'react-icons/fa'
-import { SiJest } from 'react-icons/si'
+import { RiNextjsFill, RiTailwindCssFill } from 'react-icons/ri'
+import { SiJest, SiStyledcomponents, SiVitest } from 'react-icons/si'
 
 const SkillsBadges = () => {
   const techStack = [
@@ -14,8 +15,12 @@ const SkillsBadges = () => {
     { icon: BiLogoJavascript, name: 'JavaScript' },
     { icon: BiLogoTypescript, name: 'TypeScript' },
     { icon: FaReact, name: 'React' },
+    { icon: RiNextjsFill, name: 'Next.js' },
+    { icon: RiTailwindCssFill, name: 'Tailwind' },
+    { icon: SiStyledcomponents, name: 'Styled-Components' },
     { icon: BiLogoGraphql, name: 'GraphQL' },
     { icon: SiJest, name: 'Jest' },
+    { icon: SiVitest, name: 'Vitest' },
     { icon: FaAws, name: 'AWS' },
     { icon: BiLogoNodejs, name: 'NodeJS' },
   ]
